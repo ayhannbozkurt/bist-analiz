@@ -52,12 +52,11 @@ langchain
    ```
    touch .env
    ```
-## API KEYS
 
-Uygulama için GROK api key almanız gerekecektir. .env dosyasının içine aldığınız api key'i bu şekilde girin;
-
-XAI_API_KEY=your_api_key
-
+4. `.env` dosyasına GROK api adresinizi bu sekilde girin:
+   ```
+   XAI_API_KEY=your_api_key
+   ```
 ## Kullanım
 
 ### Uygulamayı Çalıştırma

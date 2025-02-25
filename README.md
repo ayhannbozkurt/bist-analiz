@@ -15,6 +15,13 @@ Bu uygulama, Borsa İstanbul (BIST) piyasasındaki hisse senetlerinin gerçek za
   - Finansal durum raporu
   - İndirilebilir detaylı analiz raporu
 
+```
+DEMO
+```
+
+https://github.com/user-attachments/assets/ce23329d-090d-43e2-82d9-f942669fdda3
+
+
 ## Kurulum
 
 ### Gereksinimler
@@ -24,15 +31,15 @@ streamlit
 pandas
 plotly
 yfinance
-python-dotenv
+langchain
 ```
 
 ### Kurulum Adımları
 
 1. Projeyi klonlayın:
    ```
-   git clone <repo-url>
-   cd <repo-directory>
+   git clone https://github.com/ayhannbozkurt/bist-analiz
+   cd <bist-analiz>
    ```
 
 2. Gerekli paketleri yükleyin:
@@ -40,10 +47,15 @@ python-dotenv
    pip install -r requirements.txt
    ```
 
-3. `.env` dosyasını oluşturun (gerekiyorsa):
+3. `.env` dosyasını oluşturun:
    ```
    touch .env
    ```
+## API KEYS
+
+Uygulama için GROK api key almanız gerekecektir. .env dosyasının içine aldığınız api key'i bu şekilde girin;
+
+XAI_API_KEY=your_api_key
 
 ## Kullanım
 
@@ -60,7 +72,7 @@ Bu komut, uygulamayı yerel bir web sunucusunda başlatacak ve tarayıcınızda 
 Uygulamayı yerel olarak çalıştırırken verileri güncellemek için:
 
 ```
-python python_data.py
+python download_data.py
 ```
 
 Bu komut, BIST piyasasından en güncel verileri çekecek ve yerel veri dosyalarını güncelleyecektir.
@@ -73,49 +85,3 @@ Bu komut, BIST piyasasından en güncel verileri çekecek ve yerel veri dosyalar
 - **analysis.py**: Hisse senedi analiz fonksiyonlarını içeren modül
 - **python_data.py**: Verileri güncellemek için kullanılan script
 
-## Ekran Görüntüleri
-
-[Buraya uygulamanın ekran görüntülerini ekleyebilirsiniz]
-
-## Katkıda Bulunma
-
-1. Bu repo'yu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inize push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
-
-## Lisans
-
-[Lisans bilgisi eklenecek]
-
-## İletişim
-
-[İletişim bilgilerinizi ekleyebilirsiniz] # bist-analiz
-
-# Environment variables
-.env
-
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Virtual Environment
-venv/
-env/
-ENV/
-
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo

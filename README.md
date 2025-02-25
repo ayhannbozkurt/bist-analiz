@@ -1,5 +1,11 @@
 # BIST Piyasa Analiz Uygulaması
 
+```
+DEMO
+```
+
+https://github.com/user-attachments/assets/ce23329d-090d-43e2-82d9-f942669fdda3
+
 ## Proje Hakkında
 
 Bu uygulama, Borsa İstanbul (BIST) piyasasındaki hisse senetlerinin gerçek zamanlı analizini yapan, görselleştiren ve detaylı raporlar sunan bir web uygulamasıdır. Streamlit kullanılarak geliştirilmiş olup, kullanıcı dostu arayüzü sayesinde piyasa verilerini kolayca incelemenizi sağlar.
@@ -15,11 +21,6 @@ Bu uygulama, Borsa İstanbul (BIST) piyasasındaki hisse senetlerinin gerçek za
   - Finansal durum raporu
   - İndirilebilir detaylı analiz raporu
 
-```
-DEMO
-```
-
-https://github.com/user-attachments/assets/ce23329d-090d-43e2-82d9-f942669fdda3
 
 
 ## Kurulum

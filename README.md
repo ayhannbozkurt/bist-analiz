@@ -92,3 +92,30 @@ Bu komut, BIST piyasasından en güncel verileri çekecek ve yerel veri dosyalar
 ## İletişim
 
 [İletişim bilgilerinizi ekleyebilirsiniz] # bist-analiz
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,6 +1,0 @@
-streamlit
-pandas
-plotly
-yfinance
-python-dotenv
-langchain
